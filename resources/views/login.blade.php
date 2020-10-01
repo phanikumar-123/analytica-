@@ -32,10 +32,8 @@
   <script src="https://kit.fontawesome.com/4e73ca9112.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
-  <div id="formbox">
-
-
+<body class="login-page">
+  <div class="formbox">
 
     <form>
       <svg id="svg3" height="1" width="1">
@@ -45,10 +43,9 @@
         <img src="/images/Logo.png" alt="logo icon" height="100px" width="100px">
       </div>
       <div class="form-group">
-        <label id="user">Username</label>
-        <label for="exampleInputUsername" class="sr-only">Username</label>
+        <label>Username</label>
         <div class="position-relative has-icon-left">
-          <input type="text" id="exampleInputUsername" class="form-control input-shadow">
+          <input type="text" id="username" class="form-control input-shadow">
           <div class="form-control-position">
             <img src="/images/username.svg">
 
@@ -57,10 +54,9 @@
       </div>
 
       <div class="form-group">
-        <label id="pass">Password</label>
-        <label for="exampleInputPassword" class="sr-only">Password</label>
+        <label>Password</label>
         <div class="position-relative has-icon-left">
-          <input type="password" id="exampleInputPassword" class="form-control input-shadow">
+          <input type="password" id="password" class="form-control input-shadow">
           <div class="form-control-position">
             <img src="/images/password.svg">
           </div>
