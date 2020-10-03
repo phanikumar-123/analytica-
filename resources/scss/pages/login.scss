@@ -5,95 +5,57 @@
         box-shadow: 10px 10px 20px -6px rgb(58, 57, 57);
         margin: 85 auto;
         width: 450px;
-        height: 569px;
+        height: 559px;
         background: linear-gradient(180deg, #0f568e 1.1%, rgba(8, 25, 88, 0.192) 102.03%);
         filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.25));
         border-radius: 10px;
-
+        .logo {
+            margin-top: 10px;
+            margin-left: 39%;
+        }
+        .form-group > label {
+            width: 206px;
+            margin-left: 42%;
+            margin-top: 20px;
+            font-family: Lato;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            letter-spacing: 0.1em;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #ffffff;
+        }
         .has-icon-left .form-control {
             padding-left: 37px;
             right: auto;
             left: 0px;
             background: rgba(255, 255, 255, 0.2);
         }
-
-        .form-group > label {
-            width: 206px;
-
-            margin-left: 42%;
-            margin-top: 20px;
-
-            font-family: Lato;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 15px;
-            letter-spacing: 0.1em;
-            display: flex;
-            align-items: center;
+        .form-control {
+            border-radius: 30px;
+            border: 0px solid #e5eaef;
+            background-color: rgba(255, 255, 255, 0.2);
+            color: #fff;
+            margin-top: 2px;
+            width: 325px;
+            height: 45px;
+            margin-left: 60px;
+        }
+        .form-control-position {
+            color: #ffffff;
+            margin-top: 22px;
+            margin-left: 55px;
+            margin-right: 46px;
+            position: absolute;
+            top: -10px;
+            z-index: 2;
+            display: block;
+            width: 3.5rem;
+            height: 3.5rem;
+            line-height: 3.5rem;
             text-align: center;
-
-            color: #ffffff;
-        }
-        /* #pass {
-            width: 206px;
-
-            margin-left: 42%;
-            margin-top: 30px;
-
-            font-family: Lato;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 15px;
-            display: flex;
-            align-items: center;
-            text-align: center;
-            letter-spacing: 0.1em;
-            color: #ffffff;
-        } */
-        #logo {
-            margin-top: 10px;
-            margin-left: 39%;
-        }
-        #retrieve {
-            width: 15px;
-            height: 15px;
-            fill-opacity: "0.9";
-            fill: "none";
-
-            margin-left: 115px;
-            margin-top: -5px;
-            color: #f5f5f5;
-        }
-        #retrieves {
-            width: 206px;
-
-            margin-left: 3px;
-            margin-top: 11px;
-            letter-spacing: 0.1em;
-            font-family: Lato;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 12px;
-
-            color: #ffffff;
-        }
-        #new {
-            letter-spacing: 0.06em;
-            font-size: 14px;
-            padding: 0px;
-            margin-top: 90px;
-            color: #ffffff;
-            margin-left: 25px;
-        }
-        #news {
-            font-family: Lato;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 12px;
-            letter-spacing: 0.1em;
-            margin-left: 5px;
-            margin-bottom: 20px;
-            color: #ffffff;
         }
         #button {
             margin-top: 2px;
@@ -114,59 +76,60 @@
             align-items: center;
             text-align: center;
             letter-spacing: 0.06em;
+            .login {
+                margin: 0 auto;
+                font-size: 15px;
+                letter-spacing: 0.1em;
+            }
+        }
+        .retrieve {
+            width: 15px;
+            height: 15px;
+            fill-opacity: "0.9";
+            fill: "none";
+            margin-left: 115px;
+            margin-top: -5px;
+            color: #f5f5f5;
+        }
+        .retrieves {
+            width: 206px;
+            margin-left: 3px;
+            margin-top: 11px;
+            letter-spacing: 0.1em;
+            font-family: Lato;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            color: #ffffff;
         }
 
-        .form-control-position {
+        #new {
+            letter-spacing: 0.06em;
+            font-size: 14px;
+            padding: 0px;
+            margin-top: 90px;
             color: #ffffff;
-            margin-top: 22px;
-            margin-left: 55px;
-            margin-right: 46px;
-            position: absolute;
-            top: -10px;
-            z-index: 2;
-            display: block;
-            width: 3.5rem;
-            height: 3.5rem;
-            line-height: 3.5rem;
-            text-align: center;
+            margin-left: 25px;
         }
-        .form-control {
-            //height: 50px;
-            border-radius: 30px;
-            border: 0px solid #e5eaef;
-            background-color: rgba(255, 255, 255, 0.2);
-            color: #fff;
-            margin-top: 2px;
-            width: 325px;
-            height: 45px;
-            margin-left: 60px;
-        }
-        #login {
-            margin: 0 auto;
-            font-size: 15px;
+        .news {
+            font-family: Lato;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
             letter-spacing: 0.1em;
+            margin-left: 5px;
+            margin-bottom: 20px;
+            color: #ffffff;
         }
-        /* #exampleInputUsername {
-            margin-top: 2px;
-            width: 325px;
-            height: 45px;
-            margin-left: 60px;
-        }
-        #exampleInputPassword {
-            margin-top: 2px;
-            width: 325px;
-            height: 45px;
-            margin-left: 60px;
-        } */
-        #svg1 {
+        .svg1 {
             margin-left: 215px;
-            margin-top: 69px;
+            margin-top: 71px;
             position: absolute;
             transform: rotate(105deg);
         }
-        #svg2 {
-            margin-left: 205px;
-            margin-top: 77px;
+        .svg2 {
+            margin-left: 200px;
+            margin-top: 79px;
             position: absolute;
             transform: rotate(105deg);
         }
