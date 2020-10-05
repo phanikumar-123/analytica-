@@ -55,13 +55,13 @@
                 </div>
             </div>
 
-            <button type="button" id="button" class="btn btn-outline-primary">
+            <button type="button" class="btn btn-outline-primary">
                 <div class="login">LOGIN</div>
             </button><br>
 
             <a href="#"><img src="/images/forgot 1.svg" class="retrieve"></a>
             <a href="#" class="retrieves"> Forgot Username / Password</a><br>
-            <a href="#" class="fas fa-plus-circle" id="new"></a>
+            <a href="#" class="fas fa-plus-circle"></a>
             <a href="#" class="news">Create New Account</a>
 
             <svg class="svg1" height="59" width="42">

@@ -11,10 +11,12 @@
   filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.25));
   border-radius: 10px;
 }
+
 .login-page .formbox .logo {
   margin-top: 10px;
   margin-left: 39%;
 }
+
 .login-page .formbox .form-group > label {
   width: 206px;
   margin-left: 42%;
@@ -27,7 +29,7 @@
   display: flex;
   align-items: center;
   text-align: center;
-  color: #ffffff;
+  color: white;
 }
 
 .login-page .formbox .has-icon-left .form-control {
@@ -41,7 +43,7 @@
   border-radius: 30px;
   border: 0px solid #e5eaef;
   background-color: rgba(255, 255, 255, 0.2);
-  color: #fff;
+  color: white;
   margin-top: 2px;
   width: 325px;
   height: 45px;
@@ -49,7 +51,7 @@
 }
 
 .login-page .formbox .form-control-position {
-  color: #ffffff;
+  color: white;
   margin-top: 22px;
   margin-left: 55px;
   margin-right: 46px;
@@ -63,14 +65,14 @@
   text-align: center;
 }
 
-.login-page .formbox #button {
+.login-page .formbox .btn {
   margin-top: 2px;
   width: 170px;
   height: 45px;
   margin-left: 31%;
   border-radius: 30px;
   background-color: rgba(255, 255, 255, 0.2);
-  color: #ffffff;
+  color: white;
   margin-top: 40px;
   font-family: Lato;
   font-style: normal;
@@ -82,7 +84,7 @@
   letter-spacing: 0.06em;
 }
 
-.login-page .formbox #button .login {
+.login-page .formbox .btn .login {
   margin: 0 auto;
   font-size: 15px;
   letter-spacing: 0.1em;
@@ -95,7 +97,7 @@
   fill: "none";
   margin-left: 115px;
   margin-top: -5px;
-  color: #f5f5f5;
+  color: white;
 }
 
 .login-page .formbox .retrieves {
@@ -107,15 +109,15 @@
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
-  color: #ffffff;
+  color: white;
 }
 
-.login-page .formbox #new {
+.login-page .formbox .fas {
   letter-spacing: 0.06em;
   font-size: 14px;
   padding: 0px;
   margin-top: 90px;
-  color: #ffffff;
+  color: white;
   margin-left: 25px;
 }
 
@@ -127,7 +129,7 @@
   letter-spacing: 0.1em;
   margin-left: 5px;
   margin-bottom: 20px;
-  color: #ffffff;
+  color: white;
 }
 
 .login-page .formbox .svg1 {
@@ -143,3 +145,4 @@
   position: absolute;
   transform: rotate(105deg);
 }
+
