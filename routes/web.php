@@ -17,3 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::view('/login', 'login');
+Route::view('/profile', 'profile');
