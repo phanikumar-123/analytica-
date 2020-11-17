@@ -1,0 +1,833 @@
+.login-page {
+  background-image: url(/images/1.png?b3eece170762dfa55f101f35e8f60956);
+}
+
+.login-page .formbox {
+  box-shadow: 10px 10px 20px -6px #3a3939;
+  margin: 85 auto;
+  width: 450px;
+  height: 559px;
+  background: linear-gradient(180deg, #0f568e 1.1%, rgba(8, 25, 88, 0.192) 102.03%);
+  filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.25));
+  border-radius: 10px;
+}
+
+.login-page .formbox .logo {
+  margin-top: 10px;
+  margin-left: 39%;
+}
+
+.login-page .formbox .form-group > label {
+  width: 206px;
+  margin-left: 42%;
+  margin-top: 20px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  letter-spacing: 0.1em;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.login-page .formbox .has-icon-left .form-control {
+  padding-left: 37px;
+  right: auto;
+  left: 0px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.login-page .formbox .form-control {
+  border-radius: 30px;
+  border: 0px solid #e5eaef;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  margin-top: 2px;
+  width: 325px;
+  height: 45px;
+  margin-left: 60px;
+}
+
+.login-page .formbox .form-control-position {
+  color: white;
+  margin-top: 22px;
+  margin-left: 55px;
+  margin-right: 46px;
+  position: absolute;
+  top: -10px;
+  z-index: 2;
+  display: block;
+  width: 3.5rem;
+  height: 3.5rem;
+  line-height: 3.5rem;
+  text-align: center;
+}
+
+.login-page .formbox .btn {
+  margin-top: 2px;
+  width: 170px;
+  height: 45px;
+  margin-left: 31%;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  margin-top: 40px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.login-page .formbox .btn .login {
+  margin: 0 auto;
+  font-size: 15px;
+  letter-spacing: 0.1em;
+}
+
+.login-page .formbox .retrieve {
+  width: 15px;
+  height: 15px;
+  fill-opacity: "0.9";
+  fill: "none";
+  margin-left: 115px;
+  margin-top: -5px;
+  color: white;
+}
+
+.login-page .formbox .retrieves {
+  width: 206px;
+  margin-left: 3px;
+  margin-top: 11px;
+  letter-spacing: 0.1em;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: white;
+}
+
+.login-page .formbox .fas {
+  letter-spacing: 0.06em;
+  font-size: 14px;
+  padding: 0px;
+  margin-top: 90px;
+  color: white;
+  margin-left: 25px;
+}
+
+.login-page .formbox .news {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  margin-left: 5px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.login-page .formbox .svg1 {
+  margin-left: 215px;
+  margin-top: 71px;
+  position: absolute;
+  transform: rotate(105deg);
+}
+
+.login-page .formbox .svg2 {
+  margin-left: 200px;
+  margin-top: 79px;
+  position: absolute;
+  transform: rotate(105deg);
+}
+
+body {
+  background-image: url(/images/1.png?b3eece170762dfa55f101f35e8f60956);
+}
+
+body .box1 {
+  margin-top: 130px;
+  margin-left: 20%;
+  width: 1180px;
+  height: 800px;
+  background: rgba(255, 255, 255, 0.137);
+  border-radius: 5px;
+}
+
+body .box1 .icon1 {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 10px;
+}
+
+body .box1 .profilename {
+  position: absolute;
+  width: 201px;
+  height: 50px;
+  left: 590px;
+  top: 180px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 45%;
+  /* or 11px */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #ffffff;
+}
+
+body .box1 .icon2 {
+  height: 35px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 55%;
+}
+
+body .box1 .editname {
+  position: absolute;
+  width: 201px;
+  height: 50px;
+  left: 1135px;
+  top: 180px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 45;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+body .box1 .box2 {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 5px 0px 0px 5px;
+  width: 350px;
+  height: 520px;
+  margin-top: 240px;
+  margin-left: 120px;
+}
+
+body .box1 .box2 .name {
+  position: absolute;
+  width: 203px;
+  height: 44px;
+  left: 80px;
+  top: 80px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 45%;
+  /* or 9px */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+body .box1 .box2 .location {
+  margin-top: 130px;
+  margin-left: 120px;
+}
+
+body .box1 .box2 .location-name {
+  position: absolute;
+  width: 203px;
+  height: 44px;
+  left: 140px;
+  top: 115px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 45%;
+  /* or 9px */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+body .box1 .box2 .mail {
+  position: absolute;
+  left: 20px;
+  top: 180px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 45%;
+  /* or 9px */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+body .box1 .box2 .mail-id {
+  position: absolute;
+  left: 50px;
+  top: 188px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 45%;
+  /* or 9px */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+body .box1 .box2 .phone {
+  position: absolute;
+  left: 20px;
+  top: 240px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 45%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+body .box1 .box2 .phone-number {
+  position: absolute;
+  left: 50px;
+  top: 247px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 45%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+body .box1 .box2 .university {
+  position: absolute;
+  left: 20px;
+  top: 300px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 45%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+body .box1 .box2 .university-name {
+  position: absolute;
+  left: 50px;
+  top: 310px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 45%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+body .box1 .box2 .badges {
+  position: absolute;
+  width: 73px;
+  height: 26px;
+  left: 129px;
+  top: 356px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 45%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #ffffff;
+}
+
+body .box1 .box2 .html-badge {
+  display: flex;
+  position: absolute;
+  margin-top: 270px;
+  margin-left: 30px;
+}
+
+body .box1 .box2 .css-badge {
+  display: flex;
+  position: absolute;
+  margin-top: 270px;
+  margin-left: 120px;
+}
+
+body .box1 .box2 .javascript-badge {
+  display: flex;
+  position: absolute;
+  margin-top: 270px;
+  margin-left: 200px;
+}
+
+body .box1 .box2 .php-badge {
+  display: flex;
+  position: absolute;
+  margin-top: 270px;
+  margin-left: 300px;
+}
+
+body .box1 .box2 .python-badge {
+  display: flex;
+  position: absolute;
+  margin-top: 320px;
+  margin-left: 30px;
+}
+
+body .box1 .profilepic {
+  position: absolute;
+  height: 150px;
+  left: 526px;
+  top: 280px;
+  z-index: 1;
+  mix-blend-mode: normal;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+body .box1 .box3 {
+  position: absolute;
+  width: 600px;
+  height: 520px;
+  left: 775px;
+  top: 370px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 0px 5px 5px 0px;
+}
+
+body .box1 .box3 .About {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+body .box1 .box3 .text1 {
+  position: absolute;
+  width: 394px;
+  height: 96px;
+  left: 19px;
+  top: 35px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 90%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+body .box1 .box3 .text2 {
+  position: absolute;
+  width: 394px;
+  height: 96px;
+  left: 19px;
+  top: 70px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 90%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+body .box1 .box3 .text3 {
+  position: absolute;
+  width: 394px;
+  height: 96px;
+  left: 19px;
+  top: 105px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 90%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+body .box1 .box3 .hobbies {
+  margin-left: 20px;
+  margin-top: 190px;
+}
+
+body .box1 .box3 .hobbies-text {
+  position: absolute;
+  width: 394px;
+  height: 96px;
+  left: 19px;
+  top: 180px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 90%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+body .box1 .box3 .hobbies-text1 {
+  position: absolute;
+  width: 394px;
+  height: 96px;
+  left: 19px;
+  top: 210px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 90%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+body .box1 .box3 .skill-points {
+  position: absolute;
+  width: 287px;
+  height: 248.5px;
+  left: 19px;
+  top: 280px;
+}
+
+.registration-bg-theme {
+  background-image: url("/images/bg-images/background.png");
+  font-family: "Lato", sans-serif;
+  letter-spacing: 0.8px;
+  margin: 0;
+  font-size: 0.82rem;
+  line-height: 1;
+  text-align: left;
+  color: #ffff;
+  /* Main Logo */
+  /*Cards */
+  /* Forms */
+  /*Buttons */
+  /*bottom line*/
+  /* top line*/
+  /* dot at the end*/
+}
+
+.registration-bg-theme .logo {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.registration-bg-theme .logo img {
+  height: 100px;
+  width: 100px;
+}
+
+.registration-bg-theme .card {
+  margin-bottom: 25px;
+  border: none;
+  background-color: rgba(52, 194, 219, 0.2);
+  margin-left: 580px;
+  margin-bottom: 25px;
+  position: relative;
+  display: flex;
+  width: 0rem;
+  margin-top: 70px;
+}
+
+.registration-bg-theme .card .card-body {
+  height: 500px;
+  width: 380px;
+  padding-top: 6px;
+  padding-right: 20px;
+  box-shadow: 1px 1px 10px 0px #3a3939;
+  border-radius: 2.5%;
+  background: linear-gradient(180deg, #0f568e 1.1%, rgba(8, 25, 88, 0.192) 102.03%);
+  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.25));
+}
+
+.registration-bg-theme .card .card-content {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.registration-bg-theme .forms {
+  margin-top: 55px;
+}
+
+.registration-bg-theme .forms .form-group {
+  margin-bottom: 0px;
+  /* alignment of the checkbox*/
+  /* outside appreance of the checkbox*/
+  /* tick mark appearance while clicking the checkbox*/
+  /*style for checkbox while pressing it*/
+  /*tick mark of the checkbox*/
+  /*color of the chechbox*/
+  /*Tick mark in the check box*/
+}
+
+.registration-bg-theme .forms .form-group .position-relative {
+  position: relative;
+  font-size: small;
+  letter-spacing: 1.3px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 90px;
+  margin-bottom: 2px;
+}
+
+.registration-bg-theme .forms .form-group .form-control {
+  padding-right: 0.85rem;
+  padding-left: 2.9rem;
+}
+
+.registration-bg-theme .forms .form-group .form-control-position {
+  right: auto;
+  left: 0px;
+}
+
+.registration-bg-theme .forms .form-group .gap {
+  margin-bottom: 12px;
+  margin-top: 6px;
+}
+
+.registration-bg-theme .forms .form-group .gaps {
+  margin-bottom: 14px;
+  margin-top: 6px;
+}
+
+.registration-bg-theme .forms .form-group .form-control {
+  border: 0px solid #e5eaef;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  height: calc(1.3em + 0.69rem + 2px);
+  border-radius: 40px;
+  margin-bottom: 10px;
+}
+
+.registration-bg-theme .forms .form-group .form-control:focus {
+  background-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.45);
+}
+
+.registration-bg-theme .forms .form-group .form-control-position {
+  position: absolute;
+  top: 6px;
+  right: 0;
+  z-index: 1;
+  display: block;
+  width: 3.5rem;
+  height: 3.5rem;
+  line-height: 3.5rem;
+  text-align: center;
+  margin-left: -8px;
+}
+
+.registration-bg-theme .forms .form-group .form-control-position img {
+  height: 18px;
+  width: 18px;
+}
+
+.registration-bg-theme .forms .form-group [class*=icheck-material] {
+  min-height: 22px;
+  margin-bottom: 6px;
+}
+
+.registration-bg-theme .forms .form-group [class*=icheck-material] > label {
+  padding-left: 29px;
+  min-height: 22px;
+  line-height: 22px;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.registration-bg-theme .forms .form-group [class*=icheck-material] > input:first-child {
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  background-color: #787878;
+  border-radius: 50%;
+  display: block;
+  width: 22px;
+  height: 22px;
+  outline: none;
+  transform: scale(2);
+  -ms-transform: scale(2);
+  transition: opacity 0.3s, transform 0.3s;
+  margin-left: 10px;
+}
+
+.registration-bg-theme .forms .form-group [class*=icheck-material] > input:first-child + label::before,
+.registration-bg-theme .forms .form-group [class*=icheck-material] > input:first-child + input[type=hidden] + label::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 2px solid white;
+  border-radius: 0.25rem;
+  margin-left: -29px;
+  box-sizing: border-box;
+}
+
+.registration-bg-theme .forms .form-group [class*=icheck-material] > input:first-child:checked + label::after,
+.registration-bg-theme .forms .form-group [class*=icheck-material] > input:first-child:checked + input[type=hidden] + label::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 7px;
+  height: 10px;
+  border: solid 2px #fff;
+  border-left: none;
+  border-top: none;
+  transform: translate(7.75px, 4.5px) rotate(45deg);
+  -ms-transform: translate(7.75px, 4.5px) rotate(45deg);
+  box-sizing: border-box;
+}
+
+.registration-bg-theme .forms .form-group [class*=icheck-material] > input:first-child:active {
+  transform: scale(0);
+  -ms-transform: scale(0);
+  opacity: 0;
+  transition: opacity 0s, transform 0s;
+}
+
+.registration-bg-theme .forms .form-group [class*=icheck-material] > input[type=checkbox]:first-child:checked + label::after,
+.registration-bg-theme .forms .form-group [class*=icheck-material] > input[type=checkbox]:first-child:checked + input[type=hidden] + label::after {
+  width: 6px;
+  height: 12px;
+  transform: translate(7px, 2px) rotate(45deg);
+  -ms-transform: translate(7px, 2px) rotate(45deg);
+}
+
+.registration-bg-theme .forms .form-group .icheck-material-white > input:first-child:not(:checked):not(:disabled):hover + label::before,
+.registration-bg-theme .forms .form-group .icheck-material-white > input:first-child:not(:checked):not(:disabled):hover + input[type=hidden] + label::before {
+  border-color: #ffffff;
+}
+
+.registration-bg-theme .forms .form-group .icheck-material-white > input:first-child:checked + label::before,
+.registration-bg-theme .forms .form-group .icheck-material-white > input:first-child:checked + input[type=hidden] + label::before {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+.registration-bg-theme .forms .form-group .icheck-material-white > input:first-child:checked + label::after,
+.registration-bg-theme .forms .form-group .icheck-material-white > input:first-child:checked + input[type=hidden] + label::after {
+  border-bottom-color: #000;
+  border-right-color: #000;
+}
+
+.registration-bg-theme .forms .form-group .icheck-material-white {
+  margin-left: 10px;
+}
+
+.registration-bg-theme .btn {
+  font-family: Lato;
+  font-size: 0.7rem;
+  font-weight: 520;
+  letter-spacing: 1px;
+  padding: 9px 19px;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  text-align: center;
+  border-radius: 40px;
+  width: 60%;
+  text-align: center;
+  margin-left: 65px;
+  margin-top: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registration-bg-theme .btn-light {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.125);
+  border-color: rgba(255, 255, 255, 0.125);
+}
+
+.registration-bg-theme .btn-light:hover {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.18);
+  border-color: rgba(255, 255, 255, 0.18);
+}
+
+.registration-bg-theme .btn-light:not(:disabled):not(.disabled).active,
+.registration-bg-theme .btn-light:not(:disabled):not(.disabled):active,
+.registration-bg-theme .show > .btn-light.dropdown-toggle {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.125);
+  border-color: rgba(255, 255, 255, 0.125);
+}
+
+.registration-bg-theme .svg1 {
+  margin-left: 308px;
+  margin-top: -8px;
+  position: absolute;
+  transform: rotate(105deg);
+  stroke: #ecebeb;
+  stroke-width: 1;
+}
+
+.registration-bg-theme .svg2 {
+  margin-left: 292px;
+  margin-top: -2px;
+  position: absolute;
+  transform: rotate(105deg);
+  stroke: #ecebeb;
+  stroke-width: 1;
+}
+
+.registration-bg-theme .dot {
+  height: 10px;
+  width: 10px;
+  background-color: #ff4500;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 345px;
+  margin-top: 26px;
+}
+
