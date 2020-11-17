@@ -1,0 +1,308 @@
+.registration-bg-theme {
+    background-image: url("/images/bg-images/background.png");
+    font-family: "Lato", sans-serif;
+    letter-spacing: 0.8px;
+    margin: 0;
+    font-size: 0.82rem;
+    line-height: 1;
+    text-align: left;
+    color: #ffff;
+
+    /* Main Logo */
+    .logo {
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+
+        img {
+            height: 100px;
+            width: 100px;
+        }
+    }
+
+    /*Cards */
+    .card {
+        margin-bottom: 25px;
+        border: none;
+        background-color: rgba(52, 194, 219, 0.2);
+        margin-left: 580px;
+        margin-bottom: 25px;
+        position: relative;
+        display: flex;
+        width: 0rem;
+        margin-top: 70px;
+
+        .card-body {
+            height: 500px;
+            width: 380px;
+            padding-top: 6px;
+            padding-right: 20px;
+            box-shadow: 1px 1px 10px 0px rgb(58, 57, 57);
+            border-radius: 2.5%;
+            background: linear-gradient(180deg, #0f568e 1.1%, rgba(8, 25, 88, 0.192) 102.03%);
+            filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.25));
+        }
+
+        .card-content {
+            padding-left: 18px;
+            padding-right: 18px;
+        }
+    }
+
+    /* Forms */
+    .forms {
+        margin-top: 55px;
+
+        .form-group {
+            margin-bottom: 0px;
+
+            .position-relative {
+                position: relative;
+                font-size: small;
+                letter-spacing: 1.3px;
+                text-align: center;
+                color: #ffffff;
+                font-weight: 90px;
+                margin-bottom: 2px;
+            }
+
+            .form-control {
+                padding-right: 0.85rem;
+                padding-left: 2.9rem;
+            }
+
+            .form-control-position {
+                right: auto;
+                left: 0px;
+            }
+
+            .gap {
+                margin-bottom: 12px;
+                margin-top: 6px;
+            }
+
+            .gaps {
+                margin-bottom: 14px;
+                margin-top: 6px;
+            }
+
+            .form-control {
+                border: 0px solid #e5eaef;
+                background-color: rgba(255, 255, 255, 0.2);
+                color: #fff;
+                height: calc(1.3em + 0.69rem + 2px);
+                border-radius: 40px;
+                margin-bottom: 10px;
+            }
+
+            .form-control:focus {
+                background-color: rgba(0, 0, 0, 0.2);
+                box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.45);
+            }
+
+            .form-control-position {
+                position: absolute;
+                top: 6px;
+                right: 0;
+                z-index: 1;
+                display: block;
+                width: 3.5rem;
+                height: 3.5rem;
+                line-height: 3.5rem;
+                text-align: center;
+                margin-left: -8px;
+
+                img {
+                    height: 18px;
+                    width: 18px;
+                }
+            }
+
+            /* alignment of the checkbox*/
+            [class*="icheck-material"] {
+                min-height: 22px;
+                margin-bottom: 6px;
+                // margin-left: 10px;;
+            }
+
+            [class*="icheck-material"] > label {
+                padding-left: 29px;
+                min-height: 22px;
+                line-height: 22px;
+                display: inline-block;
+                position: relative;
+                vertical-align: top;
+                font-weight: normal;
+                cursor: pointer;
+                // margin-left: 10px;
+            }
+
+            [class*="icheck-material"] > input:first-child {
+                position: absolute;
+                opacity: 0;
+                margin: 0;
+                background-color: #787878;
+                border-radius: 50%;
+                display: block;
+                width: 22px;
+                height: 22px;
+                outline: none;
+                transform: scale(2);
+                -ms-transform: scale(2);
+                transition: opacity 0.3s, transform 0.3s;
+                margin-left: 10px;
+            }
+
+            /* outside appreance of the checkbox*/
+            [class*="icheck-material"] > input:first-child + label::before,
+            [class*="icheck-material"] > input:first-child + input[type="hidden"] + label::before {
+                content: "";
+                display: inline-block;
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                border: 2px solid rgb(255, 255, 255);
+                border-radius: 0.25rem;
+                margin-left: -29px;
+                box-sizing: border-box;
+            }
+
+            /* tick mark appearance while clicking the checkbox*/
+            [class*="icheck-material"] > input:first-child:checked + label::after,
+            [class*="icheck-material"] > input:first-child:checked + input[type="hidden"] + label::after {
+                content: "";
+                display: inline-block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 7px;
+                height: 10px;
+                border: solid 2px #fff;
+                border-left: none;
+                border-top: none;
+                transform: translate(7.75px, 4.5px) rotate(45deg);
+                -ms-transform: translate(7.75px, 4.5px) rotate(45deg);
+                box-sizing: border-box;
+                // margin-left: 10px;
+            }
+
+            /*style for checkbox while pressing it*/
+            [class*="icheck-material"] > input:first-child:active {
+                transform: scale(0);
+                -ms-transform: scale(0);
+                opacity: 0;
+                transition: opacity 0s, transform 0s;
+            }
+
+            /*tick mark of the checkbox*/
+            [class*="icheck-material"] > input[type="checkbox"]:first-child:checked + label::after,
+            [class*="icheck-material"]
+                > input[type="checkbox"]:first-child:checked
+                + input[type="hidden"]
+                + label::after {
+                width: 6px;
+                height: 12px;
+                // margin-left: 10px;
+                transform: translate(7px, 2px) rotate(45deg);
+                -ms-transform: translate(7px, 2px) rotate(45deg);
+            }
+
+            .icheck-material-white > input:first-child:not(:checked):not(:disabled):hover + label::before,
+            .icheck-material-white
+                > input:first-child:not(:checked):not(:disabled):hover
+                + input[type="hidden"]
+                + label::before {
+                border-color: #ffffff;
+            }
+
+            /*color of the chechbox*/
+            .icheck-material-white > input:first-child:checked + label::before,
+            .icheck-material-white > input:first-child:checked + input[type="hidden"] + label::before {
+                background-color: #ffffff;
+                border-color: #ffffff;
+            }
+
+            /*Tick mark in the check box*/
+            .icheck-material-white > input:first-child:checked + label::after,
+            .icheck-material-white > input:first-child:checked + input[type="hidden"] + label::after {
+                border-bottom-color: #000;
+                border-right-color: #000;
+            }
+
+            .icheck-material-white {
+                margin-left: 10px;
+            }
+        }
+    }
+
+    /*Buttons */
+    .btn {
+        font-family: Lato;
+        font-size: 0.7rem;
+        font-weight: 520;
+        letter-spacing: 1px;
+        padding: 9px 19px;
+        box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+        text-align: center;
+        border-radius: 40px;
+        width: 60%;
+        text-align: center;
+        margin-left: 65px;
+        margin-top: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn-light {
+        color: #fff;
+        background-color: rgba(255, 255, 255, 0.125);
+        border-color: rgba(255, 255, 255, 0.125);
+    }
+
+    .btn-light:hover {
+        color: #fff;
+        background-color: rgba(255, 255, 255, 0.18);
+        border-color: rgba(255, 255, 255, 0.18);
+    }
+
+    .btn-light:not(:disabled):not(.disabled).active,
+    .btn-light:not(:disabled):not(.disabled):active,
+    .show > .btn-light.dropdown-toggle {
+        color: #fff;
+        background-color: rgba(255, 255, 255, 0.125);
+        border-color: rgba(255, 255, 255, 0.125);
+    }
+
+    /*bottom line*/
+    .svg1 {
+        margin-left: 308px;
+        margin-top: -8px;
+        position: absolute;
+        transform: rotate(105deg);
+        stroke: rgb(236, 235, 235);
+        stroke-width: 1;
+    }
+
+    /* top line*/
+    .svg2 {
+        margin-left: 292px;
+        margin-top: -2px;
+        position: absolute;
+        transform: rotate(105deg);
+        stroke: rgb(236, 235, 235);
+        stroke-width: 1;
+    }
+
+    /* dot at the end*/
+    .dot {
+        height: 10px;
+        width: 10px;
+        background-color: #ff4500;
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: 345px;
+        margin-top: 26px;
+    }
+}
